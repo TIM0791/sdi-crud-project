@@ -1,0 +1,15 @@
+.header {
+  display:flex;
+  border-bottom: double black 1rem;
+  justify-content: space-around;
+  align-content: center;
+}
+
+img {
+  height: 5rem;
+}
+
+button {
+height: 2rem;
+margin: 2rem;
+}

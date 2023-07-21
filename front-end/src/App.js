@@ -1,9 +1,19 @@
 import React from 'react';
+import './style/app.css';
+import Header from './Header';
+
+// fetch('http://localhost:8080/')
+// .then(data => data.json())
+// .then(res => console.log(res))
+
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+    <Header />
+    <section className='inventory'>
+      <label>label</label>
+    </section>
     </>
   );
 }
