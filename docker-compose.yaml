@@ -15,9 +15,9 @@ services:
     ports:
       - "8080:8080"
 
-#  front-end:
-#    build: ./front-end
-#    depends_on:
-#      - server
-#    ports:
-#      - "3000:3000"
+  front-end:
+    build: ./front-end
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
